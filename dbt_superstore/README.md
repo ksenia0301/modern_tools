@@ -1,15 +1,33 @@
-Welcome to your new dbt project!
+# Dimensional Modeling Project with Azure Postgre, dbt Core and Looker
 
-### Using the starter project
+## Project Tasks
 
-Try running the following commands:
-- dbt run
-- dbt test
+1. [Week1](Week 1) Clone the repo and access it using VS code
+2. [Week2](Week 2) Load data to PostgreSQL
+3. [Week3](Week 3) Build models using dbt Core
 
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+# Week 1: Clone the repo and acces it using VS code
+
+Open VS code and run in terminal:
+
+git clone https://github.com/ksenia0301/modern_tools.git
+
+# Week 2: Load data to PostgreSQL
+
+1. Download and open DBeaver
+2. Click on the New Database Connection button or navigate to Database > New Database Connection.
+3. Select PostgreSQL from the list of database drivers and click Next.
+4. Enter the connection details:
+   Host: your-db-host
+   Port: 5432
+   Database: your-db-name
+   Username: your-db-user
+   Password: your-db-password
+5. Click Test Connection to ensure that the connection details are correct. Click OK to save the connection
+
+6. we use Fivetran to make load process, need to create account (add about Fivetran)
+
+
+
+
